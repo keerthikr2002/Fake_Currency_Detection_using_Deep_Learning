@@ -46,7 +46,7 @@ SUCCESS: AI Model saved in 'model/' folder.
 
 The application successfully identifies denominations from the Mahatma Gandhi New Series. Below is a test result for a **₹500 Note** correctly identified as **Fake**.
 
-![GUI Result](project_screenshots/gui_result.PNG)
+![GUI Result](project_screenshots/gui_result.png)
 
 ---
 
@@ -63,17 +63,17 @@ The application successfully identifies denominations from the Mahatma Gandhi Ne
 ## 📂 Project Structure
 
 ```text
-Fake_Currency_Detection/
-├── dataset/               # 8GB Dataset (Real/Fake folders)
-├── project_screenshots/   # Screenshots for documentation
+Fake_Currency_Detection_using_deep_learning/
+├── dataset/                                   # 8GB Dataset (Real/Fake folders)
+├── project_screenshots/                       # Screenshots for documentation
 ├── model/                 
-│   ├── model.json         # Saved AI Architecture
-│   └── model.weights.h5   # Trained AI Weights
-├── fake_currency_detection_using_CNN.pdf    
-├── train_model.py         # Script to train the CNN
-├── main.py                # GUI Application script
-├── requirements.txt       # Necessary libraries
-└── README.md              # Project documentation
+│   ├── model.json                             # Saved AI Architecture
+│   └── model_weights_h5_file_link.txt         # Trained AI Weights file link stored in this file
+├── fake_currency_detection_using_CNN.pdf      # Document and details of this project
+├── train_model.py                             # Script to train the CNN
+├── main.py                                    # GUI Application script
+├── requirements.txt                           # Necessary libraries
+└── README.md                                  # Project documentation
 ```
 
 ## ⚙️ Setup & Execution
